@@ -1,7 +1,7 @@
 body {
   background-color: #E8E8E8;
   color: #080808;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.2;
 }
 
@@ -18,15 +18,22 @@ nav {
 }
 
 figcaption {
-  font-size: .8em;
+  font-size: .7em;
+  margin-bottom: .8em;
 }
 
 h1 {
   font-size: 2.5em;
+  margin-top: 1em;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.3em;
+  margin-top: .5em;
+}
+
+p {
+  margin: 1em 0;
 }
 
 .author {
@@ -64,12 +71,21 @@ article {
   padding-top: 100px;
 }
 
+.story-text {
+  margin-bottom: 4em;
+}
+
 .container {
   margin: 0 auto;
   width: 50%;
 }
 
-a:link {
+a:link, a:visited{
   text-decoration: none;
-  text-color: #0070BB;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  font-weight: bold;
 }
