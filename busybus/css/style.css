@@ -140,6 +140,10 @@ transform:rotate(90deg);
   padding-right: 30px;
 }
 
+.arriving {
+  font-size: 1.5em;
+}
+
 .standard-icon-div {
   width: 30px;
   text-align: right;
