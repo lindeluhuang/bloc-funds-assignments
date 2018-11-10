@@ -26,6 +26,7 @@ nav {
 }
 
 .location {
+  margin: 1px 0;
 }
 
 .location .content {
@@ -36,14 +37,14 @@ nav {
 
 .location .arrow {
   display: inline-block;
-  padding: 15px;
-  padding-top: 23px;
+  padding: 23px 30px 0 0;
   vertical-align: top;
+  float: right;
   width: 5%;
 }
 
 .content h1 {
-  font-size: 1.4em;
+  font-size: 1.8em;
   font-weight: bold;
   line-height: 1.4;
 }
