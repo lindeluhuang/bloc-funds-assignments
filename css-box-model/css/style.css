@@ -26,21 +26,20 @@ nav {
 }
 
 .location {
-  margin: 1px 0;
+  border-top: 1px solid darkgray;
+  padding: 18px 25px;
 }
 
 .location .content {
   display: inline-block;
-  padding: 15px;
   width: 91%;
 }
 
 .location .arrow {
   display: inline-block;
-  padding: 23px 30px 0 0;
   vertical-align: top;
   float: right;
-  width: 5%;
+  padding-top: 12px;
 }
 
 .content h1 {
